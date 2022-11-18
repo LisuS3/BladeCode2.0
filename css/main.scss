@@ -21,6 +21,7 @@ li, a, p button {
 }
 
 body {
+  width: 100vw;
   background: url("../img/bg.png");
   background-size: cover;
 }
@@ -122,7 +123,7 @@ nav {
 }
 
  .info {
-   margin-left: -10px;
+
    width: 370px;
    height: 40px;
    border-radius: 10px;
@@ -136,13 +137,13 @@ nav {
  }
 
  .elements {
-   margin-top: 50px;
+   margin-top: 30px;
+   margin-left: -10px;
    z-index: 2;
  }
 
  .portfolio {
-   margin-left: -10px;
-   margin-bottom: 0px;
+   margin-bottom: 10px;
    width: 370px;
    height: 40px;
    border-radius: 10px;
@@ -155,6 +156,8 @@ nav {
  }
 
  .info-text {
+   z-index: 2;
+   margin-top: -15px;
    margin-left: 30px;
    width: 520px;
    height: 150px;
@@ -169,9 +172,17 @@ nav {
 
  .work-done {
    margin-top: 250px;
-   width: 1920px;
+   padding: 30px;
+   width: 100vw;
    height: 720px;
    background-color: $dark-box-color;
+ }
+
+ .work-list {
+   width: 1700px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
  }
 
  .work-done-h1 {
@@ -191,6 +202,7 @@ nav {
    height: 280px;
    border-radius: 20px;
    background-color: $box-color;
+   margin: 50px;
  }
 
  .work-box img {
@@ -206,4 +218,14 @@ nav {
    background-color: $element-color;
    color: $font-color;
    box-shadow: 2px 11px 24px $shadow-color
+ }
+
+ .work-column {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .work-row {
+   display: flex;
+   flex-direction: row;
  }
