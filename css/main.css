@@ -13,20 +13,65 @@ li, a, p button {
 }
 
 body {
-  background: url("../img/bg.png");
+  background-color: #2d2d2d;
+  background-size: cover;
+}
+
+.top {
   background-size: cover;
 }
 
 .logo {
-  width: 320px;
+  width: 290px;
   padding: 50px;
   position: absolute;
   margin-left: 20px;
 }
 
 .nav_container {
+  background-size: cover;
   display: flex;
   justify-content: space-between;
+}
+
+section > img {
+  z-index: 0;
+}
+
+.chuj {
+  width: 950px;
+  margin-left: 50%;
+  margin-top: -4%;
+  position: absolute;
+}
+
+.top-logo {
+  position: absolute;
+  width: 2050px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.mid-bg {
+  position: absolute;
+  width: 758px;
+  right: 0;
+  z-index: -1;
+}
+
+.left-mid {
+  margin-top: -500px;
+  position: absolute;
+  width: 558px;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-bg {
+  position: absolute;
+  width: 2050px;
+  z-index: -1;
 }
 
 nav {
@@ -44,6 +89,7 @@ nav {
   margin: 5px;
   justify-content: center;
   list-style: none;
+  position: absolute;
 }
 
 .nav-list li {
@@ -52,6 +98,7 @@ nav {
 
 .nav-list li a p {
   padding: 10px 20px;
+  z-index: 5;
 }
 
 .nav-list p {
@@ -60,8 +107,8 @@ nav {
 }
 
 .title {
-  margin-top: 260px;
-  margin-left: 60px;
+  margin-top: 390px;
+  margin-left: 90px;
 }
 
 .title h1 {
@@ -69,6 +116,11 @@ nav {
   width: 350px;
   color: #FFFFFF;
   margin: 0;
+}
+
+.test {
+  position: absolute;
+  top: 350px;
 }
 
 .title p {
@@ -160,7 +212,7 @@ nav {
 .work-done {
   margin-top: 250px;
   width: 100%;
-  height: 850px;
+  height: 975px;
   background-color: rgba(52, 51, 51, 0.768627451);
 }
 
@@ -261,6 +313,63 @@ nav {
 
 .nav-footer li {
   display: inline;
+}
+
+.nav-footer li a p {
+  background-color: #464646;
+  border-radius: 20px;
+  margin-bottom: 17px;
+}
+
+.logo-footer {
+  width: 240px;
+  margin-left: 1400px;
+  margin-top: 170px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-top: 530px;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #464646;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+}
+
+.arrow-up svg {
+  width: 25px;
+}
+
+.arrow-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #292929;
+  width: 50px;
+  height: 50px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

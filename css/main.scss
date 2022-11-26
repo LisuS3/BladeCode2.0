@@ -1,4 +1,5 @@
 $main-color: #773996;
+$bg-color: #2d2d2d;
 $font-color: #FFFFFF;
 $element-color: #773996;
 $shadow-color: #12042380;
@@ -7,6 +8,8 @@ $dark-box-color: #343333;
 $dark-box-color-transparent: #343333c4;
 $box-element-color: #683781;
 $partners-color: #404040;
+$bg-nav-color: #464646;
+$bg-arrow-up-color: #292929;
 
 * {
   padding: 0;
@@ -23,20 +26,69 @@ li, a, p button {
 }
 
 body {
-  background: url("../img/bg.png");
+  background-color: $bg-color;
+  background-size: cover;
+}
+
+.top {
   background-size: cover;
 }
 
 .logo {
-  width: 320px;
+  width: 290px;
   padding: 50px;
   position: absolute;
   margin-left: 20px;
 }
 
 .nav_container {
+  background-size: cover;
   display: flex;
   justify-content: space-between;
+
+}
+
+section > img {
+
+  z-index: 0;
+  //top: -100px;
+}
+
+.chuj {
+  width: 950px;
+  margin-left: 50%;
+  margin-top: -4%;
+  position: absolute;
+}
+
+.top-logo {
+  position: absolute;
+  width: 2050px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.mid-bg {
+  position: absolute;
+  width: 758px;
+  right: 0;
+  z-index: -1;
+}
+
+.left-mid {
+  margin-top: -500px;
+  position: absolute;
+  width: 558px;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-bg {
+  position: absolute;
+  width: 2050px;
+  //bottom: 0;
+  z-index: -1;
 }
 
 nav {
@@ -54,6 +106,7 @@ nav {
   margin: 5px;
   justify-content: center;
   list-style: none;
+  position: absolute;
 }
 
 .nav-list li {
@@ -62,6 +115,7 @@ nav {
 
 .nav-list li a p {
   padding: 10px 20px;
+  z-index: 5;
 }
 
 .nav-list p {
@@ -72,8 +126,8 @@ nav {
 
 // TITLE
 .title {
-  margin-top: 260px;
-  margin-left: 60px
+  margin-top: 390px;
+  margin-left: 90px
 }
 
 .title h1 {
@@ -81,6 +135,12 @@ nav {
   width: 350px;
   color: $font-color;
   margin: 0;
+}
+
+.test {
+  position: absolute;
+  top: 350px;
+
 }
 
 .title p {
@@ -175,7 +235,7 @@ nav {
    margin-top: 250px;
    //padding: 30px;
    width: 100%;
-   height: 850px;
+   height: 975px;
    background-color: $dark-box-color-transparent;
 
  }
@@ -274,8 +334,67 @@ nav {
  .nav-footer {
    margin-bottom: 100px;
    margin-top: 200px;
+
  }
 
  .nav-footer li {
    display: inline;
+
+ }
+
+ .nav-footer li a p {
+   background-color: $bg-nav-color;
+   border-radius: 20px;
+   margin-bottom: 17px;
+ }
+
+ .logo-footer {
+   width: 240px;
+   margin-left: 1400px;
+   margin-top: 170px;
+ }
+
+ .social-media {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 120px;
+   margin-top: 530px;
+ }
+
+ .social-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: $bg-nav-color;
+   width: 80px;
+   height: 80px;
+   border-radius: 20px;
+   margin-left: 30px;
+ }
+
+ .arrow-up {
+   display: flex;
+   justify-content: center;
+   margin-top: -90px;
+ }
+
+ .arrow-up svg {
+   width: 25px;
+ }
+
+ .arrow-bg {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-color: $bg-arrow-up-color;
+   width: 50px;
+   height: 50px;
+ }
+
+ .footer-text {
+   display: flex;
+   justify-content: center;
+   color: $font-color;
+   margin-top: 40px;
  }
