@@ -1,7 +1,10 @@
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
-const openModalBtn = document.querySelector(".btn-open");
+const openModalBtn = document.querySelectorAll(".btn-open");
 const closeModalBtn = document.querySelector(".btn-close");
+const imgPortfolio = document.querySelector(".preview-web")
+const titlePortfolio = document.querySelector(".titlePortfolio")
+const textPortfolio = document.querySelector(".textPortfolio")
 
 // close modal function
 const closeModal = function () {
@@ -26,4 +29,20 @@ const openModal = function () {
     overlay.classList.remove("hidden");
 };
 // open modal event
-openModalBtn.addEventListener("click", openModal);
+openModalBtn.forEach(item => {
+    item.addEventListener("click", openModal)
+});
+
+
+
+function showDetails(portfolio) {
+    const portfoliosList = portfolio.getAttribute("data-portfolio-img");
+    const dataTitlePortfolio = portfolio.getAttribute("data-portfolio-title");
+    const dataTextPortfolio = portfolio.getAttribute("data-portfolio-text");
+
+    titlePortfolio.innerText = dataTitlePortfolio
+    textPortfolio.innerText = dataTextPortfolio
+    imgPortfolio.setAttribute("src", portfoliosList)
+
+
+}
