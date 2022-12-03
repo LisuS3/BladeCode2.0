@@ -1,9 +1,6 @@
-@import "colors";
-
 .logo {
   width: 290px;
   padding: 50px;
-  //position: absolute;
   margin-left: 20px;
 }
 
@@ -49,20 +46,19 @@ nav {
 }
 
 .nav-list p {
-  color: $font-color;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
-// TITLE
 .title {
   margin-top: 160px;
-  margin-left: 90px
+  margin-left: 90px;
 }
 
 .title h1 {
   font-size: 50px;
   width: 350px;
-  color: $font-color;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -73,7 +69,7 @@ nav {
 
 .title p {
   font-size: 20px;
-  color: $font-color;
+  color: #FFFFFF;
 }
 
 .started {
@@ -82,16 +78,15 @@ nav {
   border: none;
   margin-left: 60px;
   margin-top: 50px;
-  background-color: $element-color;
-  color: $font-color;
-  box-shadow: 2px 11px 24px $shadow-color
+  background-color: #773996;
+  color: #FFFFFF;
+  box-shadow: 2px 11px 24px rgba(18, 4, 35, 0.5019607843);
 }
 
 .started:hover {
-  background-color: $element-color-hover;
+  background-color: #9042b6;
 }
 
-// BOX
 .flex-column {
   display: flex;
 }
@@ -106,7 +101,7 @@ nav {
   width: 570px;
   height: 340px;
   border-radius: 60px;
-  background-color: $box-color;
+  background-color: #424242;
 }
 
 .avatar {
@@ -128,8 +123,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: $font-color;
-  background-color: $dark-box-color;
+  color: #FFFFFF;
+  background-color: #343333;
   margin-bottom: 15px;
 }
 
@@ -146,19 +141,18 @@ nav {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  color: $font-color;
+  color: #FFFFFF;
   text-align: center;
   align-items: center;
-  background-color: $box-element-color;
+  background-color: #683781;
 }
 
 .portfolio a {
-  color: $font-color
+  color: #FFFFFF;
 }
 
-
 .portfolio:hover {
-  background-color: $element-color-hover;
+  background-color: #9042b6;
 }
 
 .info-text {
@@ -168,10 +162,12 @@ nav {
   width: 520px;
   height: 150px;
   border-radius: 10px;
-  color: $font-color;
-  background-color: $dark-box-color;
+  color: #FFFFFF;
+  background-color: #343333;
 }
 
 .info-text p {
   padding: 13px;
 }
+
+/*# sourceMappingURL=header.css.map */

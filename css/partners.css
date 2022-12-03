@@ -1,0 +1,65 @@
+.partners {
+  margin-top: 45px;
+  margin-bottom: 250px;
+  width: 100%;
+  height: 410px;
+  background-color: rgba(52, 51, 51, 0.768627451);
+}
+
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.partners-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+  height: 230px;
+  border-radius: 60px;
+  background-color: #404040;
+}
+
+.dark-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 60px 60px 0 0;
+  background-color: #424242;
+}
+
+.partners-img {
+  width: 150px;
+}
+
+.mail {
+  width: 340px;
+  font-size: 27px;
+}
+
+.address-mail {
+  color: #773996;
+  margin-left: 108px;
+}
+
+.address-mail:hover {
+  color: #9042b6;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=partners.css.map */
