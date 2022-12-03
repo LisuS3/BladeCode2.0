@@ -35,21 +35,20 @@
 <body>
 <div class="custom-scrollbar"></div>
 <img class="top-logo" src="img/nav.png" alt="">
-<div class="nav_container" id="start">
-    <div>
-        <img src="img/logo.png" alt="" class="logo">
-    </div>
-    <nav>
-        <div class="nav-list">
-            <ul>
-                <li><a href="#start"><p>O MNIE</p></a></li>
-                <li><a href="#work-done"><p>PORTFOLIO</p></a></li>
-                <li><a href="#contact"><p>KONTAKT</p></a></li>
-                <li><a href="#partners"><p>PARTNERZY</p></a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+<section class="top-nav">
+    <input id="menu-toggle" type="checkbox"/>
+    <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+        <li><a href="#start"><p>O MNIE</p></a></li>
+        <li><a href="#work-done"><p>PORTFOLIO</p></a></li>
+        <li><a href="#contact"><p>KONTAKT</p></a></li>
+        <li><a href="#partners"><p>PARTNERZY</p></a></li>
+    </ul>
+</section>
+<img src="img/logo.png" alt="" class="logo">
+
 <div class="title">
     <h1 class="absolute">Let’s get the top of Mountain</h1>
     <p>Here is the hiking information you need to decide<br>
@@ -58,7 +57,7 @@
     <button class="started">Get Started</button>
 </div>
 <div class="flex flex-end">
-    <div class="box">
+    <div class="box" id="start">
         <div class="flex-column">
             <div class="avatar">
                 <img src="img/avatar.png" alt="">
