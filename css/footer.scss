@@ -1,0 +1,96 @@
+@import "colors";
+
+
+.nav-footer {
+  margin-top: 100px;
+
+}
+
+.nav-footer li {
+  display: inline;
+
+}
+
+.nav-footer li a p {
+  background-color: $bg-nav-color;
+  border-radius: 20px;
+  margin-bottom: 17px;
+}
+
+.nav-footer li a p:hover {
+  background-color: #773996;
+}
+
+.logo-footer {
+  width: 240px;
+  margin-left: 68%;
+  //margin-top: 170px;
+}
+
+footer {
+  padding: 10px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-bottom: -50px;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-nav-color;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.social-box:hover {
+  background-color: $dark-box-color;
+}
+
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  //margin-top: -90px;
+}
+
+.arrow-up svg {
+  width: 25px;
+}
+
+.arrow-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: $bg-arrow-up-color;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow-bg:hover {
+  background-color: #454343;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  color: $font-color;
+}
+
+.social-box .fa {
+  color: $element-color-hover;
+  font-size: 40px;
+}
+
+.fa:hover {
+  color: $element-color;
+}

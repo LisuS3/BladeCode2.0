@@ -1,0 +1,29 @@
+.top-logo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.mid-bg {
+  position: absolute;
+  width: 35%;
+  right: 0;
+  z-index: -1;
+}
+
+.left-mid {
+  margin-top: -500px;
+  position: absolute;
+  width: 500px;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
