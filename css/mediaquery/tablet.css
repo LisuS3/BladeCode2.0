@@ -73,7 +73,6 @@
   }
   .social-media {
     gap: 40px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 0;

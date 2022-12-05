@@ -1,9 +1,10 @@
 @import "colors";
 
-
+nav {
+  margin-top: -100px;
+}
 .nav-footer {
-  margin-top: 100px;
-
+  margin-left: 200px;
 }
 
 .nav-footer li {
@@ -15,6 +16,8 @@
   background-color: $bg-nav-color;
   border-radius: 20px;
   margin-bottom: 17px;
+  padding: 14px 42px;
+  z-index: 5;
 }
 
 .nav-footer li a p:hover {
