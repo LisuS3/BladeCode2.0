@@ -1,16 +1,7 @@
 .partners {
   margin-top: 45px;
   margin-bottom: 250px;
-  width: 100%;
-  height: 410px;
   background-color: rgba(52, 51, 51, 0.768627451);
-}
-
-.partners-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
 }
 
 .partners-box {
@@ -18,8 +9,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 200px;
-  height: 230px;
+  width: 100%;
+  height: 100%;
   border-radius: 60px;
   background-color: #404040;
 }

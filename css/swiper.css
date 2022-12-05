@@ -4,6 +4,8 @@
 }
 
 .swiper-slide {
+  width: 200px;
+  height: 200px;
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
@@ -19,13 +21,6 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /*# sourceMappingURL=swiper.css.map */
