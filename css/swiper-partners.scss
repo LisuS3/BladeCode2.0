@@ -3,7 +3,7 @@
   height: 65%;
 }
 
-.swiper-slide {
+.swiper-slide-partners {
   margin-right: 200px;
   width: 200px;
   height: 390px;
@@ -32,8 +32,14 @@
 //  object-fit: cover;
 }
 
-
-.swiper-pagination-bullet-active {
-  background: #773996;
+.swiper-pagination {
+  color: #773996;
 }
 
+.swiper-pagination-bullet-active {
+  color: #773996;
+}
+
+.pagination-partners {
+  bottom: -150px;
+}

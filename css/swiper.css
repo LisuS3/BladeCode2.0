@@ -1,13 +1,13 @@
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 65%;
 }
 
 .swiper-slide {
+  margin-right: 200px;
   width: 200px;
-  height: 200px;
+  height: 390px;
   text-align: center;
-  font-size: 18px;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +21,10 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background: #773996;
 }
 
 /*# sourceMappingURL=swiper.css.map */

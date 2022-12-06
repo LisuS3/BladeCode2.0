@@ -1,7 +1,7 @@
 .work-done {
   margin-top: 250px;
   width: 100%;
-  height: 975px;
+  height: 585px;
   background-color: rgba(52, 51, 51, 0.768627451);
 }
 
@@ -58,6 +58,11 @@
 .work-row {
   display: flex;
   flex-direction: row;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #9042b6;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

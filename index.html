@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper-partners.css">
 
     <!--@MEDIA-->
     <link rel="stylesheet" href=css/mediaquery/smartphone.css>
@@ -37,237 +38,279 @@
 <body>
 <div class="custom-scrollbar"></div>
 <img class="top-logo" src="img/nav.png" alt="">
-<section class="top-nav">
-    <input id="menu-toggle" type="checkbox"/>
-    <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-    </label>
-    <ul class="menu">
-        <li><a href="#start"><p>O MNIE</p></a></li>
-        <li><a href="#work-done"><p>PORTFOLIO</p></a></li>
-        <li><a href="#contact"><p>KONTAKT</p></a></li>
-        <li><a href="#partners"><p>PARTNERZY</p></a></li>
-    </ul>
-</section>
-<img src="img/logo.png" alt="" class="logo">
-
-<div class="title">
-    <h1 class="absolute">Let’s get the top of Mountain</h1>
-    <p>Here is the hiking information you need to decide<br>
-        if it is right for you, and to make it more interesting,<br>
-        enjoyable, and safe.</p>
-    <button class="started">Get Started</button>
-</div>
-<div class="flex flex-end">
-    <div class="box" id="start">
-        <div class="flex-column">
-            <div class="avatar">
-                <img src="img/avatar.png" alt="">
-            </div>
-            <div class="elements">
-                <div class="info">INFORMACJE O MNIE!</div>
-                <div class="portfolio">
-                    <a href="#work-done">PORTFOLIO</a>
-                </div>
-            </div>
-        </div>
-        <div class="info-text"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum molestiae perferendis, quod soluta temporibus
-        ut voluptates! A assumenda cum debitis enim expedita id iure, laudantium nihil suscipit totam ullam voluptas.</span>
-        </p>
-        </div>
-    </div>
-</div>
-<img class="mid-bg" src="img/mid.png" alt="">
-<div class="work-done" id="work-done">
-    <h1 class="h1-zone">WYKONANE PRACE</h1>
-    <div class="work-list">
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button onclick="showDetails(this)"
-                    data-portfolio-title="Playzeria.net"
-                    data-portfolio-text="testowy text bo kurwa jest juz 1 godzina"
-                    data-portfolio-img="img/portfolio/bladecode.pl/img.png"
-                    class="button btn-open">Get Started
-            </button>
-        </div>
-
-        <div class="overlay hidden"></div>
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button onclick="showDetails(this)"
-                    data-portfolio-title="Bladecode.pl"
-                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
-                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get Started
-            </button>
-        </div>
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button class="button btn-open">Get Started</button>
-        </div>
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button class="button btn-open">Get Started</button>
-        </div>
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button class="button btn-open">Get Started</button>
-        </div>
-        <div class="work-box">
-            <img src="img/work.png" alt="">
-            <button class="button btn-open">Get Started</button>
-        </div>
-        <section class="modal hidden">
-            <div class="flex">
-                <img class="avatar-modal" src="https://avatars.githubusercontent.com/u/62628408?s=96&v=4" alt="user"/>
-                <button class="btn-close">⨉</button>
-            </div>
-            <div>
-                <h2 class="titlePortfolio">Bladecode.pl</h2>
-                <p class="textPortfolio">
-                    a Lisu kodowal ta zjebana strone i prawie go krew zalała
-                </p>
-                <div class="preview">
-                    <img class="preview-web" src="img/portfolio/bladecode.pl/img.png" alt="">
-                </div>
-            </div>
-        </section>
-    </div>
-</div>
-<img class="left-mid" src="img/ss.png" alt="">
-<div class="discord">
-    <h1 class="h1-zone" id="contact">KONTAKT</h1>
-    <div class="flex flex-center">
-        <div class="flex flex-direction">
-            <h1 class="h1-zone mail">Chcesz złożyć zamówienie? Dołącz na naszego discorda lub skontaktuj sie z nami
-                poprzez
-                address e-mail!</h1>
-            <h3 class="address-mail">wolter.biznes@gmail.com</h3>
-        </div>
-        <div class="flex flex-center">
-            <iframe src="https://discord.com/widget?id=864201098666835968&theme=dark" width="340" height="550"
-                    allowtransparency="true" frameborder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        </div>
-    </div>
-</div>
-<div class="partners" id="partners">
-    <h1 class="h1-zone">PARTNERZY</h1>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="partners-box">
-                    <div class="dark-box">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="partners-box hidden-partners">
-                    <div class="dark-box ">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="partners-box hidden-partners">
-                    <div class="dark-box">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-            <div class="swiper-slide">
-            <div class="partners-box hidden-partners">
-                <div class="dark-box">
-                    <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                </div>
-                <button class="button">NICETALK</button>
-            </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="partners-box hidden-partners">
-                    <div class="dark-box">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="partners-box hidden-partners">
-                    <div class="dark-box">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="partners-box hidden-partners">
-                    <div class="dark-box">
-                        <img class="partners-img" src="img/partners/nicetalk.png" alt="">
-                    </div>
-                    <button class="button">NICETALK</button>
-                </div>
-            </div>
-        </div>
-    <div class="swiper-pagination"></div>
-    </div>
-
-<!--    <div class="swiper mySwiper">-->
-<!--        <div class="swiper-wrapper">-->
-<!--            <div class="swiper-slide">Slide 1</div>-->
-<!--            <div class="swiper-slide">Slide 2</div>-->
-<!--            <div class="swiper-slide">Slide 3</div>-->
-<!--            <div class="swiper-slide">Slide 4</div>-->
-<!--            <div class="swiper-slide">Slide 5</div>-->
-<!--            <div class="swiper-slide">Slide 6</div>-->
-<!--            <div class="swiper-slide">Slide 7</div>-->
-<!--            <div class="swiper-slide">Slide 8</div>-->
-<!--            <div class="swiper-slide">Slide 9</div>-->
-<!--        </div>-->
-<!--        <div class="swiper-pagination"></div>-->
-<!--    </div>-->
-</div>
-<div class="footer">
-    <nav class="menu nav-footer">
-        <ul>
+<section class="header-section">
+    <div class="container">
+        <div class="top-nav">
+        <input id="menu-toggle" type="checkbox"/>
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
             <li><a href="#start"><p>O MNIE</p></a></li>
             <li><a href="#work-done"><p>PORTFOLIO</p></a></li>
             <li><a href="#contact"><p>KONTAKT</p></a></li>
             <li><a href="#partners"><p>PARTNERZY</p></a></li>
         </ul>
-    </nav>
-    <img class="bottom-bg" src="img/bottom.png" alt="">
-</div>
-<img src="img/logo.png" alt="" class="logo logo-footer">
-
-<div class="social-media">
-    <div class="social-box">
-        <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <img src="img/logo.png" alt="" class="logo">
+        <div class="title">
+            <h1 class="absolute">Let’s get the top of Mountain</h1>
+            <p>Here is the hiking information you need to decide<br>
+                if it is right for you, and to make it more interesting,<br>
+                enjoyable, and safe.</p>
+            <button class="started">Get Started</button>
+        </div>
+        <div class="flex flex-end">
+            <div class="box" id="start">
+                <div class="flex-column">
+                    <div class="avatar">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+                    <div class="elements">
+                        <div class="info">INFORMACJE O MNIE!</div>
+                        <div class="portfolio">
+                            <a href="#work-done">PORTFOLIO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-text"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum molestiae perferendis, quod soluta temporibus
+        ut voluptates! A assumenda cum debitis enim expedita id iure, laudantium nihil suscipit totam ullam voluptas.</span>
+                </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="social-box">
-        <a href="#"><i class="fa fa-facebook"></i></a>
+</section>
+<img class="mid-bg" src="img/mid.png" alt="">
+<section class="portfolio-section">
+    <div class="container">
+        <div class="work-done" id="work-done">
+            <h1 class="h1-zone">WYKONANE PRACE</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--            1-->
+                    <div class="swiper-slide">
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Playzeria.net"
+                                    data-portfolio-text="testowy text bo kurwa jest juz 1 godzina"
+                                    data-portfolio-img="img/portfolio/bladecode.pl/img.png"
+                                    class="button btn-open">Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--                2-->
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Bladecode.pl"
+                                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
+                                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--                3-->
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Bladecode.pl"
+                                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
+                                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--                /4-->
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Bladecode.pl"
+                                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
+                                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--                5-->
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Bladecode.pl"
+                                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
+                                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                    <!--            6-->
+                    <div class="swiper-slide">
+                        <div class="work-box">
+                            <img src="img/work.png" alt="">
+                            <button onclick="showDetails(this)"
+                                    data-portfolio-title="Bladecode.pl"
+                                    data-portfolio-text="a Lisu kodowal ta zjebana strone i prawie go krew zalała"
+                                    data-portfolio-img="img/portfolio/bladecode.pl2/img.png" class="button btn-open">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <section class="modal hidden">
+                <div class="flex">
+                    <img class="avatar-modal" src="https://avatars.githubusercontent.com/u/62628408?s=96&v=4"
+                         alt="user"/>
+                    <button class="btn-close">⨉</button>
+                </div>
+                <div>
+                    <h2 class="titlePortfolio">Bladecode.pl</h2>
+                    <p class="textPortfolio">
+                        a Lisu kodowal ta zjebana strone i prawie go krew zalała
+                    </p>
+                    <div class="preview">
+                        <img class="preview-web" src="img/portfolio/bladecode.pl/img.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-    <div class="social-box">
-        <a href="#"><i class="fa fa-twitter"></i></a>
+</section>
+<section class="contact-section">
+    <div class="container">
+        <img class="left-mid" src="img/ss.png" alt="">
+        <div class="discord">
+            <h1 class="h1-zone" id="contact">KONTAKT</h1>
+            <div class="flex flex-center">
+                <div class="flex flex-direction">
+                    <h1 class="h1-zone mail">Chcesz złożyć zamówienie? Dołącz na naszego discorda lub skontaktuj sie z
+                        nami
+                        poprzez
+                        address e-mail!</h1>
+                    <h3 class="address-mail">wolter.biznes@gmail.com</h3>
+                </div>
+                <div class="flex flex-center">
+                    <iframe src="https://discord.com/widget?id=864201098666835968&theme=dark" width="340" height="550"
+                            allowtransparency="true" frameborder="0"
+                            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="arrow-up">
-    <div class="arrow-bg">
-        <a href="#start">
-            <svg width="38" height="22" viewBox="0 0 38 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20.7678 1.42535C19.7915 0.449038 18.2085 0.449038 17.2322 1.42535L1.32233 17.3353C0.346019 18.3116 0.346019 19.8945 1.32233 20.8708C2.29864 21.8471 3.88155 21.8471 4.85786 20.8708L19 6.72865L33.1421 20.8708C34.1184 21.8471 35.7014 21.8471 36.6777 20.8708C37.654 19.8945 37.654 18.3116 36.6777 17.3353L20.7678 1.42535ZM21.5 5.19312L21.5 3.19312L16.5 3.19312L16.5 5.19312L21.5 5.19312Z"
-                      fill="#773996"/>
-            </svg>
-        </a>
+</section>
+<section class="partners-section">
+    <div class="container">
+        <div class="partners" id="partners">
+            <h1 class="h1-zone">PARTNERZY</h1>
+            <div class="swiper swiper-partners">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-partners">
+                        <div class="partners-box">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="https://playzeria.net/assets_comming_soon/img/1.png"
+                                     alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partners-box hidden-partners">
+                            <div class="img-box">
+                                <img class="partners-img" src="img/partners/nicetalk.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination pagination-partners"></div>
+            </div>
+        </div>
     </div>
-</div>
-<footer>
-    ® Copyright 2022 Wolterfx.com. Wszelkie prawa zastrzeżone. Code by LisuIndustries
-</footer>
+</section>
+<section class="footer-section">
+    <div class="container">
+        <div class="footer">
+            <nav class="menu nav-footer">
+                <ul>
+                    <li><a href="#start"><p>O MNIE</p></a></li>
+                    <li><a href="#work-done"><p>PORTFOLIO</p></a></li>
+                    <li><a href="#contact"><p>KONTAKT</p></a></li>
+                    <li><a href="#partners"><p>PARTNERZY</p></a></li>
+                </ul>
+                <img src="img/logo.png" alt="" class="logo logo-footer">
+            </nav>
+            <img class="bottom-bg" src="img/bottom.png" alt="">
+        </div>
+        <div class="social-media">
+            <div class="social-box">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="social-box">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="social-box">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="arrow-up">
+            <div class="arrow-bg">
+                <a href="#start">
+                    <svg width="38" height="22" viewBox="0 0 38 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.7678 1.42535C19.7915 0.449038 18.2085 0.449038 17.2322 1.42535L1.32233 17.3353C0.346019 18.3116 0.346019 19.8945 1.32233 20.8708C2.29864 21.8471 3.88155 21.8471 4.85786 20.8708L19 6.72865L33.1421 20.8708C34.1184 21.8471 35.7014 21.8471 36.6777 20.8708C37.654 19.8945 37.654 18.3116 36.6777 17.3353L20.7678 1.42535ZM21.5 5.19312L21.5 3.19312L16.5 3.19312L16.5 5.19312L21.5 5.19312Z"
+                              fill="#773996"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <footer>
+            ® Copyright 2022 Wolterfx.com. Wszelkie prawa zastrzeżone. Code by LisuIndustries
+        </footer>
+    </div>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/swiper.js"></script>
+<script src="js/swiper-partners.js"></script>
 </body>
 </html>

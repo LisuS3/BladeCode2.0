@@ -22,4 +22,17 @@ body {
   position: relative;
 }
 
+.header-section,
+.portfolio-section,
+.contact-section,
+.partners-section,
+.footer-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1300px;
+}
+
 /*# sourceMappingURL=main.css.map */

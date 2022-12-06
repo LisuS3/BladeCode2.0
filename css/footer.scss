@@ -1,10 +1,9 @@
 @import "colors";
 
-nav {
-  margin-top: -100px;
-}
 .nav-footer {
-  margin-left: 200px;
+  //margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-footer li {
@@ -25,8 +24,9 @@ nav {
 }
 
 .logo-footer {
-  width: 240px;
-  margin-left: 68%;
+  width: 190px;
+  height: 190px;
+  //margin-left: 68%;
   //margin-top: 170px;
 }
 

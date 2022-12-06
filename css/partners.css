@@ -1,32 +1,22 @@
 .partners {
   margin-top: 45px;
   margin-bottom: 250px;
+  height: 360px;
   background-color: rgba(52, 51, 51, 0.768627451);
 }
 
-.partners-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 60px;
-  background-color: #404040;
-}
-
-.dark-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 60px 60px 0 0;
-  background-color: #424242;
-}
-
 .partners-img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.partners-img:hover {
+  filter: brightness(100%);
+}
+
+.img-box {
   width: 150px;
+  margin-bottom: 200px;
 }
 
 .mail {

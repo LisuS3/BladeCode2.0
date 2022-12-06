@@ -4,7 +4,7 @@
   margin-top: 45px;
   margin-bottom: 250px;
   //width: 100%;
-  //height: 410px;
+  height: 360px;
   background-color: $dark-box-color-transparent;
 }
 
@@ -16,28 +16,40 @@
 //}
 
 .partners-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 60px;
-  background-color: $partners-color;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
+  //width: 100%;
+  //height: 100%;
+  //border-radius: 60px;
+  //margin-right: 10px;
+  //margin-left: 10px;
+  //background-color: $partners-color;
 }
 
 .dark-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 60px 60px 0 0;
-  background-color: $box-color;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //width: 200px;
+  //height: 200px;
+  //border-radius: 60px 60px 0 0;
+  //background-color: $box-color;
 }
 
 .partners-img{
+  width: 100%;
+  filter: brightness(50%)
+}
+
+.partners-img:hover {
+  filter: brightness(100%)
+}
+
+.img-box {
   width: 150px;
+  margin-bottom: 200px;
 }
 
 .mail {
