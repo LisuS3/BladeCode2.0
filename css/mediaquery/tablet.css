@@ -54,7 +54,7 @@
     width: 333px;
   }
   .work-done {
-    height: 100%;
+    height: 550px;
     padding-bottom: 60px;
   }
   .footer-text {
@@ -89,9 +89,6 @@
     align-items: center;
     gap: 30px;
     flex-direction: column;
-  }
-  .address-mail {
-    margin-left: 10px;
   }
   .nav-footer {
     display: none;

@@ -89,7 +89,7 @@
     width: 333px;
   }
   .work-done {
-    height: 3100px;
+    height: 540px;
   }
   .partners {
     height: 400px;
@@ -124,9 +124,6 @@
     align-items: center;
     gap: 30px;
     flex-direction: column;
-  }
-  .hidden-partners {
-    display: none;
   }
   .nav-footer {
     display: none;
