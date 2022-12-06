@@ -22,4 +22,22 @@ body {
   position: relative;
 }
 
+.header-section,
+.portfolio-section,
+.contact-section,
+.partners-section,
+.footer-section {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-section {
+  height: 800px;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100vw;
+}
+
 /*# sourceMappingURL=main.css.map */

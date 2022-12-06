@@ -29,11 +29,16 @@ body {
 .contact-section,
 .partners-section,
 .footer-section {
-  //display: flex;
-  //justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.partners-section {
+  height: 800px;
 }
 
 
 .container {
-  //max-width: 1900px;
+  max-width: 1300px;
+  width: 100vw;
 }
