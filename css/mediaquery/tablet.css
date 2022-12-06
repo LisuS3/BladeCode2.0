@@ -10,6 +10,7 @@
   }
   .logo {
     width: 230px;
+    margin-left: 60px;
   }
   .title {
     display: flex;
@@ -17,6 +18,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
+    margin-left: 100px;
   }
   .started {
     margin-left: 0;
@@ -26,6 +28,12 @@
   }
   .title h1 {
     width: 300px;
+    margin-top: 55px;
+  }
+  .title p {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 65px;
   }
   .box {
     width: 390px;

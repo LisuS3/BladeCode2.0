@@ -6,6 +6,30 @@ let swiper = new Swiper(".mySwiper", {
         delay: 1000,
         disableOnInteraction: false
     },
+    breakpoints: {
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        // 640: {
+        //     slidesPerView: 1,
+        //     spaceBetween: 10,
+        // },
+        860: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        1023: {
+            slidesPerView: 3,
+            spaceBetween: 80
+        },
+        1680: {
+            slidesPerView: 4,
+            spaceBetween: 80
+        }
+    },
+
+
     disableOnInteraction: false,
     centeredSlides: true,
     loopFillGroupWithBlank: true,

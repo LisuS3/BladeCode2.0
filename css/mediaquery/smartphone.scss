@@ -51,6 +51,7 @@
 
   .logo {
     width: 230px;
+    margin-left: 50px;
   }
 
   .title {
@@ -60,6 +61,7 @@
     align-items: center;
     width: 300px;
     //margin: 350px auto 10px auto;
+    margin-left: 50px;
   }
 
   .started {
@@ -73,6 +75,13 @@
   .title h1 {
     //font-size: 35px;
     width: 300px;
+    margin-top: 55px;
+  }
+
+  .title p {
+    font-size: 20px;
+    color: $font-color;
+    margin-top: 65px;
   }
 
   .box {

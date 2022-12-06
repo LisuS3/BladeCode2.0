@@ -42,7 +42,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 200px;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFFFFF;
   height: 50px;
@@ -112,7 +111,7 @@
 
 .logo {
   width: 250px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .top-logo {
@@ -130,14 +129,14 @@
 
 .title {
   margin-top: 160px;
-  margin-left: 90px;
+  margin-left: 20px;
 }
 
 .title h1 {
   font-size: 50px;
   width: 350px;
   color: #FFFFFF;
-  margin-top: -20px;
+  margin-top: -55px;
 }
 
 .absolute {

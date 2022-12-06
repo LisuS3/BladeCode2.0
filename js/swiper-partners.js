@@ -6,6 +6,12 @@ const swiperPartners = new Swiper(".swiper-partners", {
         delay: 0,
         disableOnInteraction: false
     },
+    breakpoints: {
+        1680: {
+            slidesPerView: 5,
+            spaceBetween: 80
+        }
+    },
     disableOnInteraction: false,
     centeredSlides: true,
     loopFillGroupWithBlank: true,
